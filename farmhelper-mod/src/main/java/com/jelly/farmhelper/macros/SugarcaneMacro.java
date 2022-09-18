@@ -273,7 +273,7 @@ public class SugarcaneMacro extends Macro {
                 targetBlockPos = calculateTargetBlockPos();
                 return;
             }
-            if(Utils.nextInt(16) == 0) {
+            if(Utils.nextInt(4) == 0) {
                 mc.thePlayer.sendChatMessage("/setspawn");
                 setspawnLag = true;
             }
